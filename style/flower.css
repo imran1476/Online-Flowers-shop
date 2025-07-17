@@ -37,6 +37,7 @@ color:#272727;
 .semibold{
     font-size:1.5rem;
     font-weight:600;
+    color:rgba(39, 39, 39, 0.8);
 }
 .bold{
     font-size:1.5rem;
@@ -105,3 +106,114 @@ background-color: rgba(5, 151, 160, 0.15);
    margin-top: 30px;
    border-bottom: 5px solid grey;
 }
+.deal-part{
+    max-width:1920px;
+    height:620px;
+    background-color: rgba(229, 84, 115, 0.05);
+    margin-top:128px;
+}
+.service-info{
+    max-width:1440px;
+    height:320px;
+    justify-content: center;
+     align-items: center;
+     border-radius:10px;
+     margin-top:128px;
+    background-color: rgba(39, 39, 39, 0.05);
+}
+.service img{
+padding: 20px 60px;
+}
+.different{
+    color:red;
+}
+.deal{
+   justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    
+}
+ .left{
+   padding-left: 100px;
+   padding-top:120px;
+   text-align: center;
+ }
+ .right{
+     padding-right: 300px;
+   padding-top:120px;
+ }
+ .size{
+      padding:20px 40px;
+    border:none;
+    background-color:rgba(229, 84, 115, 1);
+    border-radius: 8px;
+    color:white;
+    cursor:pointer;  
+ }
+.size:hover{
+    background-color: blueviolet;
+
+}
+.social{
+    max-width: 530px;
+    height:130px;
+    text-align: center;
+    margin:0 auto;
+    margin-top:128px;
+    margin-bottom: 20px;
+}
+.social-picture{
+    max-width:1440px;
+    margin: 0 auto;
+   margin-top:10px;
+    
+}
+.social-picture img{
+  max-width:340px;
+  height:390px;
+}
+ .latest-deal{
+    margin-top:128px;
+    background-image: url('Rectangle 9.png');
+    display: flex;
+    max-width:1440px;
+    height:450px; 
+ 
+     justify-content: center;
+    align-items: center;
+    
+ }
+ .deal-content{
+    text-align: center; 
+ }
+
+    .form-container {
+      display: inline-flex;
+      gap: 10px;
+      max-width:860px;
+      width: 100%;
+    }
+
+    .form-container input {
+      flex: 1;
+      width:600px;
+      height:40px;
+      padding: 12px 15px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      outline: none;
+    }
+
+    .form-container button {
+      padding: 10px 40px;
+      background-color: #f85c8e;
+      border: none;
+      color: white;
+      font-weight: bold;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .form-container button:hover {
+      background-color:blue;
+    }
